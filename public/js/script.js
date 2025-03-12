@@ -21,8 +21,6 @@ document.getElementById("projectForm").addEventListener("submit", async (event) 
             body: JSON.stringify(typedData), 
         });
 
-        console.log("FormData:", formData);
-        console.log("TypedData:", typedData);
 
         if (response.ok) {
             console.log("The project has been successfully submitted!");
