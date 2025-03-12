@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="form__container">
+      <!-- From Uiverse.io by ammarsaa -->
+      <form class="form">
+        <label>
+          <input class="input" type="text" name="name" required />
+          <span>Name</span>
+        </label>
+
+        <label>
+          <input class="input" type="email" name="email" required />
+          <span>Email</span>
+        </label>
+
+        <label>
+          <input class="input" type="tel" name="phone" required />
+          <span>Phone</span>
+        </label>
+        <label>
+          <input class="input" type="text" name="project_type" required />
+          <span>Project Type</span>
+        </label>
+        <label>
+          <textarea
+            class="input"
+            type="text"
+            name="project_description"
+            required
+          ></textarea>
+          <span>Project Description</span>
+        </label>
+        <div class="flex">
+          <label>
+            <input class="input" type="number" name="budget_min" required />
+            <span>Budjet Min</span>
+          </label>
+          <label>
+            <input class="input" type="number" name="budget_max" required />
+            <span>Budjet Max</span>
+          </label>
+        </div>
+        <button class="submit">Send</button>
+      </form>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
